@@ -1,0 +1,57 @@
+# SIMULATION DETAIL
+DELTAT=60.0                 Time step of particle model (s)
+DT=3600.0                   Time step of hydrodynamic model input (s)
+STARTDAY=1                  Start day of simulation
+STARTTIME=000000            Time of start of simulation (hhmmss)
+DURATION=168.0              Length of simulation (h)
+OUTPUTFREQ=3600.0           Output frequency (s)
+VELOCITYDATA=mesh           Type/source of velocity data
+ADV_SCHEME=rk4              Advection scheme (rk4 or euler)
+
+# BIOLOGICAL PARAMETERS
+PASSIVESTAGE=100            Duration of passive stage (d)
+MOBILESTAGE=0               Duration of mobile stage (d)
+SWIMSPEEDUP=0.0             Upward swimming speed (m/h)
+SWIMSPEEDDOWN=0.0           Downward swimming speed (m/h)
+SETTLINGVELOCITY=0.000      Settling velocity (m/s)
+CELLGROWTH=0                Cell growth switch (1 = yes, 0 = no)
+CELLMORTALITY=0             Cell mortality switch (1 = yes, 0 = no)
+MORTALITYCONST=0.0          Constant in mortality expression
+MINSHEAR=0.000              Minimum velocity shear (s-1) 
+HALFLIFE=8.9                Half-life of chemical decay (days)
+MASSPERPARTICLE=0.0001      Mass per particle (kg) 
+CHLPERCELL=0.0              Conversion rate (ug chl/cell)
+DEPTHLIMIT=10               Maximum depth permitted (m)
+PINITIAL=0                  Initial concentration of particles
+NSOURCE=12                  Number of sources of particles
+ 143097 780538 -2.5 17 17 2.5 0 0.5 0.578
+ 143026 780511 -2.5 17 17 2.5 3 3.5 0.578
+ 143121 780466 -2.5 17 17 2.5 6 6.5 0.578
+ 143050 780441 -2.5 17 17 2.5 24 24.5 0.578
+ 143144 780401 -2.5 17 17 2.5 27 27.5 0.578
+ 143073 780376 -2.5 17 17 2.5 30 30.5 0.578
+ 143167 780331 -2.5 17 17 2.5 48 48.5 0.578
+ 143099 780309 -2.5 17 17 2.5 51 51.5 0.578
+ 143194 780263 -2.5 17 17 2.5 54 54.5 0.578
+ 143123 780233 -2.5 17 17 2.5 72 72.5 0.578
+ 143220 780188 -2.5 17 17 2.5 75 75.5 0.578
+ 143149 780163 -2.5 17 17 2.5 78 78.5 0.578
+# PHYSICAL FORCING PARAMETERS
+VERTICALDIFF=0.005          Value for vertical diffusion (m2/s)
+HORIZONTALDIFF=0.1          Value for horizontal diffusion (m2/s)
+WINDFORCING=0               Switch for wind forcing
+RESUSPENSION=0              Switch for resuspension of settled particles
+BUOYANCY=0                  Switch for dynamic particles
+1025                        Background water density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)
+2300.0 1000.0               Source volume (m3) and density (kg/m3)

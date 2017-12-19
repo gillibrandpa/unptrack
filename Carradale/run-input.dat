@@ -1,0 +1,28 @@
+# SIMULATION DETAILS
+DELTAT=60                   Time step of particle model (s)
+STARTDAY=1                  Start day of simulation
+STARTTIME=000000            Time of start of simulation (hhmmss)
+DURATION=24                 Length of simulation (h)
+OUTPUTFREQ=24               Output frequency (h)
+VELOCITYDATA=obs            Type/source of velocity data
+
+# BIOLOGICAL PARAMETERS
+PASSIVESTAGE=100            Duration of passive stage (d)
+MOBILESTAGE=0               Duration of mobile stage (d)
+SWIMSPEEDUP=0.0             Upward swimming speed (m/h)
+SWIMSPEEDDOWN=0.0           Downward swimming speed (m/h)
+SETTLINGVELOCITY=-0.023      Settling velocity (m/s)
+CELLGROWTH=0                Cell growth switch (1 = yes, 0 = no)
+CELLMORTALITY=0             Cell mortality switch (1 = yes, 0 = no)
+MORTALITYCONST=0.0          Constant in mortality expression
+MINSHEAR=0.000              Minimum velocity shear (s-1) 
+CELLSPERPARTICLE=1.0        Number of cells per virtual particle
+CHLPERCELL=0.0              Conversion rate (ug chl/cell)
+DEPTHLIMIT=0                Maximum depth permitted (m)
+NSOURCE=1                   Number of sources of particles
+ 181661 641823 -1 1 1 1  0  1.07 1000.0
+
+# PHYSICAL FORCING PARAMETERS
+VERTICALDIFF=0.005          Value for vertical diffusion (m2/s)
+HORIZONTALDIFF=0.1          Value for horizontal diffusion (m2/s)
+WINDFORCING=0               Switch for wind forcing (1 = yes, 0 = no)

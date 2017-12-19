@@ -1,0 +1,31 @@
+# SIMULATION DETAILS
+DELTAT=120                  Time step of particle model (s)
+DT=3600                     Time step of flow data (s)
+STARTDAY=1                  Start day of simulation
+STARTTIME=000000            Time of start of simulation (hhmmss)
+DURATION=720                Length of simulation (h)
+OUTPUTFREQ=1800             Output frequency (h)
+VELOCITYDATA=mesh           Type/source of velocity data
+ADV_SCHEME=rk4              Advection scheme (euler or rk4)
+
+# BIOLOGICAL PARAMETERS
+PASSIVESTAGE=100            Duration of passive stage (d)
+MOBILESTAGE=0               Duration of mobile stage (d)
+SWIMSPEEDUP=0.0             Upward swimming speed (m/h)
+SWIMSPEEDDOWN=0.0           Downward swimming speed (m/h)
+SETTLINGVELOCITY=0.0000     Settling velocity (m/s)
+CELLGROWTH=0                Cell growth switch (1 = yes, 0 = no)
+CELLMORTALITY=0             Cell mortality switch (1 = yes, 0 = no)
+MORTALITYCONST=0.0          Constant in mortality expression
+MINSHEAR=0.000              Minimum velocity shear (s-1) 
+MASSPERPARTICLE=0.0005      Number of cells per virtual particle
+CHLPERCELL=0.0              Conversion rate (ug chl/cell)
+DEPTHLIMIT=0                Maximum depth permitted (m)
+PINITIAL=0                  Initial particle distribution
+NSOURCE=1                   Number of sources of particles
+ 5293.0 -17306.0 -1.0 1.0 1.0 0.0  0  0.5 100.0
+
+# PHYSICAL FORCING PARAMETERS
+VERTICALDIFF=0.001          Value for vertical diffusion (m2/s)
+HORIZONTALDIFF=0.1          Value for horizontal diffusion (m2/s)
+WINDFORCING=0               Switch for wind forcing (1 = yes, 0 = no)
